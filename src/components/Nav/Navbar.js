@@ -31,7 +31,7 @@ function NavBar() {
       <Li><RouteNavLink to="/register">REGISTER</RouteNavLink></Li>
       <Li><RouteNavLink to="/login">LOGIN</RouteNavLink></Li>
     </>:(
-      <Li><RouteNavLink onClick={logout}>LOGOUT</RouteNavLink></Li>
+      <Li><RouteNavLink to="#" onClick={logout}>LOGOUT</RouteNavLink></Li>
     )}
     </Ul>
     </Div>
