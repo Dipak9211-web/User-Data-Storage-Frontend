@@ -23,7 +23,7 @@ function NavBar() {
     <Div>
     <Ul>
     <Li>Assignment</Li>
-    {auth?.token?<Li><RouteNavLink to="/" end>DASHBOARD</RouteNavLink></Li>:""}
+    {auth?.token?<Li><RouteNavLink to="/" end="true">DASHBOARD</RouteNavLink></Li>:""}
 
     </Ul>
     <Ul width="30%">
